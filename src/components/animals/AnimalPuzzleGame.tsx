@@ -387,7 +387,7 @@ export const AnimalPuzzleGame: React.FC<AnimalPuzzleGameProps> = ({
                 { speed: 0.85, pitch: 1.15 }
               );
             }}
-            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 bg-white hover:bg-emerald-50 text-emerald-800 font-black text-xs rounded-full border border-emerald-200 shadow-2xs transition[...]
+            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 bg-white hover:bg-emerald-50 text-emerald-800 font-black text-xs rounded-full border border-emerald-200 shadow-2xs transition-all"
           >
             <Volume2 className="w-3.5 h-3.5 text-emerald-600" /> Escuchar Animal
           </button>
@@ -440,7 +440,7 @@ export const AnimalPuzzleGame: React.FC<AnimalPuzzleGameProps> = ({
                     key={slotIdx}
                     onClick={() => handlePieceClick(slotIdx)}
                     disabled={isCompleted}
-                    className={`h-24 sm:h-28 rounded-2xl border-2 flex flex-col items-center justify-center p-2 transition-all transform active:scale-95 cursor-pointer relative overflow-hidden sh[...]
+                    className={`h-24 sm:h-28 rounded-2xl border-2 flex flex-col items-center justify-center p-2 transition-all transform active:scale-95 cursor-pointer relative overflow-hidden shadow-sm ${borderStyle}`}
                   >
                     {/* Visual Segment representation */}
                     <div
@@ -483,7 +483,7 @@ export const AnimalPuzzleGame: React.FC<AnimalPuzzleGameProps> = ({
 
         {/* Victory Celebration Card */}
         {isCompleted && (
-          <div className="max-w-md mx-auto p-5 bg-emerald-500 rounded-3xl text-white shadow-xl flex flex-col sm:flex-row items-center justify-between gap-4 animate-in zoom-in-95 duration-200 bord[...]
+          <div className="max-w-md mx-auto p-5 bg-emerald-500 rounded-3xl text-white shadow-xl flex flex-col sm:flex-row items-center justify-between gap-4 animate-in zoom-in-95 duration-200 border-2 border-emerald-400">
             <div className="flex items-center gap-3 text-left">
               <CheckCircle2 className="w-8 h-8 text-amber-300 shrink-0" />
               <div>
