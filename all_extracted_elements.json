@@ -1,0 +1,2953 @@
+{
+  "__page-root": {
+    "id": "__page-root",
+    "E": {
+      "C": "#e9f8ff",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    }
+  },
+  "app-brand": {
+    "id": "app-brand",
+    "A": "🌈 SmartKids",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#4fc3f7",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 16.0
+  },
+  "bar-energy-label": {
+    "id": "bar-energy-label",
+    "A": "⚡ Energía",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "bar-happy-label": {
+    "id": "bar-happy-label",
+    "A": "😊 Felicidad",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "bar-hunger-label": {
+    "id": "bar-hunger-label",
+    "A": "🍎 Hambre",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "block-abecedario": {
+    "id": "block-abecedario",
+    "E": {
+      "C": "#e8f8e8",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    }
+  },
+  "block-abecedario-desc": {
+    "id": "block-abecedario-desc",
+    "A": "Conoce todas las letras.",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "block-abecedario-title": {
+    "id": "block-abecedario-title",
+    "A": "Abecedario",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 19.0
+  },
+  "block-animales": {
+    "id": "block-animales",
+    "E": {
+      "C": "#ffe5ec",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    }
+  },
+  "block-animales-desc": {
+    "id": "block-animales-desc",
+    "A": "Conoce animales.",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "block-animales-title": {
+    "id": "block-animales-title",
+    "A": "Animales",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 19.0
+  },
+  "block-colores": {
+    "id": "block-colores",
+    "E": {
+      "C": "#fff7cc",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    }
+  },
+  "block-colores-desc": {
+    "id": "block-colores-desc",
+    "A": "Descubre muchos colores.",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "block-colores-title": {
+    "id": "block-colores-title",
+    "A": "Colores",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 19.0
+  },
+  "block-figuras": {
+    "id": "block-figuras",
+    "E": {
+      "C": "#f0e5ff",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    }
+  },
+  "block-figuras-desc": {
+    "id": "block-figuras-desc",
+    "A": "Aprende sus nombres.",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "block-figuras-title": {
+    "id": "block-figuras-title",
+    "A": "Figuras",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 19.0
+  },
+  "block-numeros": {
+    "id": "block-numeros",
+    "E": {
+      "C": "#fff0df",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    }
+  },
+  "block-numeros-desc": {
+    "id": "block-numeros-desc",
+    "A": "Cuenta del 1 al 20.",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "block-numeros-title": {
+    "id": "block-numeros-title",
+    "A": "Números",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 19.0
+  },
+  "block-vocales": {
+    "id": "block-vocales",
+    "E": {
+      "C": "#e3f8ff",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    }
+  },
+  "block-vocales-desc": {
+    "id": "block-vocales-desc",
+    "A": "Aprende A, E, I, O y U.",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "block-vocales-title": {
+    "id": "block-vocales-title",
+    "A": "Vocales",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 19.0
+  },
+  "confirm-logout-btn": {
+    "id": "confirm-logout-btn",
+    "A": "Cerrar sesión",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "E": {
+      "C": "#4fc3f7",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "F": {
+      "C": "#ffffff",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 16.0
+  },
+  "confirm-logout-text": {
+    "id": "confirm-logout-text",
+    "A": "¿Quieres cerrar sesión? Tu cuenta permanecerá guardada.",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 18.0
+  },
+  "exercise-vocales-title": {
+    "id": "exercise-vocales-title",
+    "A": "🧩 Completa la palabra",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 24.0
+  },
+  "hero-cta": {
+    "id": "hero-cta",
+    "A": "🚀 COMENZAR",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "E": {
+      "C": "#4fc3f7",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "F": {
+      "C": "#ffffff",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 16.0
+  },
+  "hero-description": {
+    "id": "hero-description",
+    "A": "Una experiencia educativa para niños de 3 a 5 años, con actividades de vocales, letras, colores, figuras, animales y números.",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "hero-logo": {
+    "id": "hero-logo",
+    "A": "🌈",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "hero-pets": {
+    "id": "hero-pets",
+    "A": "🐼 🦖 🐰 🐱",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "hero-subtitle": {
+    "id": "hero-subtitle",
+    "A": "Aprende, descubre y crece 🐼",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 20.0
+  },
+  "hero-title": {
+    "id": "hero-title",
+    "A": "Smart",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#4fc3f7",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 55.0
+  },
+  "hero-title-span": {
+    "id": "hero-title-span",
+    "A": "Kids",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#ff70a6",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "home-bubble": {
+    "id": "home-bubble",
+    "A": "🐼 ¡Hola! ¿Listo para aprender?",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "E": {
+      "C": "#ffffff",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "home-section-title": {
+    "id": "home-section-title",
+    "A": "📚 ¿Qué quieres aprender?",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 30.0
+  },
+  "input-child-name": {
+    "id": "input-child-name",
+    "A": "Nombre del niño",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "input-parent-email": {
+    "id": "input-parent-email",
+    "A": "correo@ejemplo.com",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "input-parent-name": {
+    "id": "input-parent-name",
+    "A": "Nombre completo",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "input-parent-pass": {
+    "id": "input-parent-pass",
+    "A": "Contraseña",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "label-avatar": {
+    "id": "label-avatar",
+    "A": "👤 Avatar",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "label-child-age": {
+    "id": "label-child-age",
+    "A": "🎂 Edad",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "label-child-name": {
+    "id": "label-child-name",
+    "A": "👧 Nombre del niño",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "label-parent-email": {
+    "id": "label-parent-email",
+    "A": "📧 Correo electrónico",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "label-parent-name": {
+    "id": "label-parent-name",
+    "A": "Nombre del padre, madre o tutor",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "label-parent-pass": {
+    "id": "label-parent-pass",
+    "A": "🔐 Contraseña",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "label-pet": {
+    "id": "label-pet",
+    "A": "🐾 Elige tu mascota",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "learn-abecedario-heading": {
+    "id": "learn-abecedario-heading",
+    "A": "🔠 Abecedario",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 24.0
+  },
+  "learn-abecedario-hint": {
+    "id": "learn-abecedario-hint",
+    "A": "Toca una letra para escuchar su nombre.",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "learn-animales-heading": {
+    "id": "learn-animales-heading",
+    "A": "🐶 Animales",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 24.0
+  },
+  "learn-colores-heading": {
+    "id": "learn-colores-heading",
+    "A": "🎨 Colores",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 24.0
+  },
+  "learn-figuras-heading": {
+    "id": "learn-figuras-heading",
+    "A": "🔺 Figuras geométricas",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 24.0
+  },
+  "learn-numeros-heading": {
+    "id": "learn-numeros-heading",
+    "A": "🔢 Números",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 24.0
+  },
+  "learn-title": {
+    "id": "learn-title",
+    "A": "📚 Aprendemos juntos",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 30.0
+  },
+  "learn-vocales-heading": {
+    "id": "learn-vocales-heading",
+    "A": "🔤 Vocales",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 24.0
+  },
+  "learn-vocales-hint": {
+    "id": "learn-vocales-hint",
+    "A": "Toca una vocal y presiona 🔊 para escucharla.",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "memory-hint": {
+    "id": "memory-hint",
+    "A": "Encuentra las parejas.",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "memory-new-game": {
+    "id": "memory-new-game",
+    "A": "🔄 Nueva partida",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "E": {
+      "C": "#4fc3f7",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "F": {
+      "C": "#ffffff",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 16.0
+  },
+  "memory-title": {
+    "id": "memory-title",
+    "A": "🧠 Memorama",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 30.0
+  },
+  "metric-activities-label": {
+    "id": "metric-activities-label",
+    "A": "📚 Actividades",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "metric-coins-label": {
+    "id": "metric-coins-label",
+    "A": "🪙 Monedas",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "metric-points-label": {
+    "id": "metric-points-label",
+    "A": "⭐ Puntos",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "nav-home": {
+    "id": "nav-home",
+    "A": "🏠 Inicio",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "nav-learn": {
+    "id": "nav-learn",
+    "A": "📚 Aprender",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "nav-memory": {
+    "id": "nav-memory",
+    "A": "🧠 Memoria",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "nav-parents": {
+    "id": "nav-parents",
+    "A": "👨‍👩‍👧 Padres",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "nav-pet": {
+    "id": "nav-pet",
+    "A": "🐾 Mi mascota",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "nav-profile": {
+    "id": "nav-profile",
+    "A": "👤 Perfil",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "nav-settings": {
+    "id": "nav-settings",
+    "A": "⚙️ Ajustes",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "nav-shop": {
+    "id": "nav-shop",
+    "A": "🛍️ Tienda",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "parents-title": {
+    "id": "parents-title",
+    "A": "👨‍👩‍👧 Panel para padres",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 30.0
+  },
+  "pet-hint": {
+    "id": "pet-hint",
+    "A": "¡Cuida y aprende con tu mascota!",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "pet-section-title": {
+    "id": "pet-section-title",
+    "A": "🐾 Mi mascota",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 30.0
+  },
+  "profile-family-heading": {
+    "id": "profile-family-heading",
+    "A": "👨‍👩‍👧 Cuenta familiar",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 19.0
+  },
+  "profile-label-email": {
+    "id": "profile-label-email",
+    "A": "📧 Correo:",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "profile-label-pass": {
+    "id": "profile-label-pass",
+    "A": "🔐 Contraseña:",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "profile-label-pet": {
+    "id": "profile-label-pet",
+    "A": "🐾 Mascota:",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "profile-label-tutor": {
+    "id": "profile-label-tutor",
+    "A": "👤 Tutor:",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "profile-logout": {
+    "id": "profile-logout",
+    "A": "🚪 Cerrar sesión",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "E": {
+      "C": "#4fc3f7",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "F": {
+      "C": "#ffffff",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 16.0
+  },
+  "profile-section-title": {
+    "id": "profile-section-title",
+    "A": "👤 Mi perfil",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 30.0
+  },
+  "register-cta": {
+    "id": "register-cta",
+    "A": "✨ Crear mi experiencia",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "E": {
+      "C": "#4fc3f7",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "F": {
+      "C": "#ffffff",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 16.0
+  },
+  "register-title": {
+    "id": "register-title",
+    "A": "🌈 Crear cuenta familiar",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#4fc3f7",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 24.0
+  },
+  "settings-test-voice": {
+    "id": "settings-test-voice",
+    "A": "🔊 Probar voz",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "E": {
+      "C": "#4fc3f7",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "F": {
+      "C": "#ffffff",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 16.0
+  },
+  "settings-title": {
+    "id": "settings-title",
+    "A": "⚙️ Ajustes",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 30.0
+  },
+  "settings-voice-label": {
+    "id": "settings-voice-label",
+    "A": "🔊 Voz",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "shop-hint": {
+    "id": "shop-hint",
+    "A": "Compra accesorios para tu mascota.",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "F": {
+      "C": "#344054",
+      "D": 0.0,
+      "F": false,
+      "J": false,
+      "G": false,
+      "H": false
+    },
+    "G": "normal",
+    "H": "normal",
+    "K": 16.0
+  },
+  "shop-title": {
+    "id": "shop-title",
+    "A": "🛍️ Tienda",
+    "D": {
+      "k": {
+        "A?": "D",
+        "A": 2
+      },
+      "v": {
+        "A?": "O",
+        "A": {
+          "A": {
+            "A?": "D",
+            "A": 2
+          },
+          "B": {
+            "A?": "S",
+            "A": {
+              "A": "YAD1aU3sLnI",
+              "B": 0,
+              "C": "B"
+            }
+          }
+        }
+      }
+    },
+    "G": "bold",
+    "H": "normal",
+    "K": 30.0
+  }
+}

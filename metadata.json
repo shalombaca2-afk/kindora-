@@ -1,0 +1,6 @@
+{
+  "name": "Kindora",
+  "description": "Una experiencia educativa interactiva para niños de 3 a 5 años con vocales, abecedario, números, colores, figuras, animales, memorama, mascota virtual y panel para padres.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

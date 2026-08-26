@@ -1,0 +1,43 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper to check if user is signed in and matches document owner
+    function isOwner(userId) {
+      return request.auth != null && request.auth.uid == userId;
+    }
+
+    // Helper to check if the tutor has verified the 6-digit OTP
+    function isUserOtpVerified(userId) {
+      return isOwner(userId) &&
+             get(/databases/$(database)/documents/users/$(userId)).data.isOtpVerified == true;
+    }
+
+    // Top-level educationalItems collection (Read allowed for all authenticated and anonymous clients, write restricted to admin)
+    match /educationalItems/{itemId} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.token.firebase.sign_in_provider == 'custom_admin';
+    }
+
+    match /users/{userId} {
+      // Tutor can read and modify their own top-level account metadata
+      allow read, write: if isOwner(userId);
+
+      // Children subcollection: permits writes ONLY if request.auth != null and isOtpVerified == true
+      match /children/{childId} {
+        allow read: if isOwner(userId);
+        allow create, update, delete: if isUserOtpVerified(userId);
+      }
+
+      // Word Usage Exposure History for spacing & LRU algorithms
+      match /wordUsage/{wordId} {
+        allow read, write: if isOwner(userId);
+      }
+
+      // Educational Domain Progress and Assimilation Metrics
+      match /progress/{domain} {
+        allow read, write: if isOwner(userId);
+      }
+    }
+  }
+}

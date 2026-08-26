@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html class="light" lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Kindora - Donde la imaginación vuela</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#006399",
+            "on-primary": "#ffffff",
+            "primary-container": "#1da1f2",
+            "on-primary-container": "#003554",
+            "primary-fixed": "#cde5ff",
+            "primary-fixed-dim": "#95ccff",
+            "on-primary-fixed": "#001d32",
+            "on-primary-fixed-variant": "#004a75",
+            "secondary": "#885200",
+            "on-secondary": "#ffffff",
+            "secondary-container": "#fe9d00",
+            "on-secondary-container": "#663c00",
+            "secondary-fixed": "#ffdcbb",
+            "secondary-fixed-dim": "#ffb869",
+            "on-secondary-fixed": "#2c1700",
+            "on-secondary-fixed-variant": "#673d00",
+            "tertiary": "#ac2a5d",
+            "on-tertiary": "#ffffff",
+            "tertiary-container": "#f96799",
+            "on-tertiary-container": "#680031",
+            "tertiary-fixed": "#ffd9e1",
+            "tertiary-fixed-dim": "#ffb1c5",
+            "on-tertiary-fixed": "#3f001b",
+            "on-tertiary-fixed-variant": "#8c0a46",
+            "background": "#f7fafe",
+            "on-background": "#181c1f",
+            "surface": "#f7fafe",
+            "on-surface": "#181c1f",
+            "on-surface-variant": "#3f4851",
+            "surface-container-lowest": "#ffffff",
+            "surface-container-low": "#f1f4f8",
+            "surface-container": "#ebeef2",
+            "surface-container-high": "#e5e8ec",
+            "surface-container-highest": "#e0e3e7",
+            "outline": "#6f7882",
+            "outline-variant": "#bec7d3"
+          },
+          borderRadius: {
+            "DEFAULT": "1rem",
+            "sm": "0.5rem",
+            "md": "1.5rem",
+            "lg": "2rem",
+            "xl": "3rem",
+            "full": "9999px"
+          },
+          spacing: {
+            "margin-desktop": "48px",
+            "margin-mobile": "16px",
+            "gutter": "24px",
+            "xs": "4px",
+            "base": "8px",
+            "sm": "12px",
+            "md": "24px",
+            "lg": "40px",
+            "xl": "64px"
+          },
+          fontFamily: {
+            "display-lg": ["Plus Jakarta Sans", "sans-serif"],
+            "headline-lg": ["Plus Jakarta Sans", "sans-serif"],
+            "headline-md": ["Plus Jakarta Sans", "sans-serif"],
+            "body-lg": ["Be Vietnam Pro", "sans-serif"],
+            "body-md": ["Be Vietnam Pro", "sans-serif"],
+            "label-bold": ["Be Vietnam Pro", "sans-serif"],
+            "label-sm": ["Be Vietnam Pro", "sans-serif"]
+          },
+          fontSize: {
+            "display-lg": ["48px", { lineHeight: "56px", letterSpacing: "-0.02em", fontWeight: "800" }],
+            "headline-lg": ["32px", { lineHeight: "40px", fontWeight: "700" }],
+            "headline-md": ["24px", { lineHeight: "32px", fontWeight: "700" }],
+            "body-lg": ["18px", { lineHeight: "28px", fontWeight: "500" }],
+            "body-md": ["16px", { lineHeight: "24px", fontWeight: "400" }],
+            "label-bold": ["14px", { lineHeight: "20px", fontWeight: "700" }],
+            "label-sm": ["12px", { lineHeight: "16px", fontWeight: "600" }]
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .pulse-button {
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); box-shadow: 0 4px 0 #004a75, 0 0 0 0 rgba(0, 99, 153, 0.4); }
+      70% { transform: scale(1.03); box-shadow: 0 4px 0 #004a75, 0 0 0 15px rgba(0, 99, 153, 0); }
+      100% { transform: scale(1); box-shadow: 0 4px 0 #004a75, 0 0 0 0 rgba(0, 99, 153, 0); }
+    }
+    .bubbly-button {
+      transition: all 0.15s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .bubbly-button:active {
+      transform: translateY(2px) scale(0.97);
+      box-shadow: 0 0px 0 transparent !important;
+    }
+    .bubbly-button-secondary {
+      transition: all 0.15s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .bubbly-button-secondary:active {
+      transform: translateY(2px) scale(0.97);
+      box-shadow: 0 0px 0 transparent !important;
+    }
+    .ambient-shadow {
+      box-shadow: 0 20px 40px -10px rgba(0, 99, 153, 0.08);
+    }
+    @keyframes floatSoft {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+    .floating-badge {
+      animation: floatSoft 3s ease-in-out infinite;
+    }
+    .floating-badge-delayed {
+      animation: floatSoft 3s ease-in-out infinite;
+      animation-delay: 1.5s;
+    }
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 1, 'wght' 600, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+  </style>
+</head>
+<body class="bg-background text-on-background font-body-lg min-h-screen flex flex-col antialiased selection:bg-primary-fixed selection:text-primary">
+  
+  <!-- Navigation Header -->
+  <header class="flex justify-between items-center w-full px-6 sm:px-margin-desktop bg-background sticky top-0 z-40 py-4 sm:py-md border-b border-surface-container-high/60 backdrop-blur-xs">
+    <div class="flex items-center gap-3 cursor-pointer select-none" onclick="window.location.href='/'" title="Kindora - Inicio">
+      <!-- High-resolution Kindora Mascot & Logo -->
+      <div class="relative flex items-center">
+        <img 
+          src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHlAiaOvOpctdxfR_wpxk9LFhRgwymhVZUV2NvO36JGVAmiku-fIV3Av6ZXre2AIykMRjyctqiZlqGjLhanX5LDXavKeIMaC1umGnZZfD6opPSzxSgCnQ-31EXbVP7priIKt1OIVqyA3tTO0b-n1faCfsw1pNg6Z7xXnQfzianwrXWwSML4sIVMMhDWC3_f0UX--vxx59dDZTaHVatp8osUmgfmKf83ErpzyS9GzH8dSgcQF7khxWrdEkm5N4b9c8V" 
+          alt="Kindora Logo" 
+          class="h-14 sm:h-16 w-auto object-contain drop-shadow-xs"
+        />
+      </div>
+      
+      <div class="flex flex-col">
+        <span class="font-display-lg text-2xl sm:text-3xl font-extrabold text-primary tracking-tight leading-none">Kindora</span>
+        <span class="text-[9px] sm:text-[10px] font-bold text-secondary tracking-wider uppercase leading-tight mt-0.5">Donde la imaginación vuela</span>
+      </div>
+    </div>
+
+    <!-- Header Action Controls -->
+    <div class="flex gap-2 sm:gap-md items-center">
+      <button 
+        id="nav-login-btn"
+        onclick="document.getElementById('login-modal').classList.remove('hidden')" 
+        class="bubbly-button font-label-bold text-xs sm:text-label-bold px-4 sm:px-lg py-2.5 sm:py-sm rounded-full bg-surface-container-highest text-on-surface-variant hover:bg-surface-container-high active:translate-y-0.5 cursor-pointer"
+      >
+        Iniciar sesión
+      </button>
+      <button 
+        id="nav-register-btn"
+        onclick="document.getElementById('login-modal').classList.remove('hidden')" 
+        class="bubbly-button font-label-bold text-xs sm:text-label-bold px-5 sm:px-lg py-2.5 sm:py-sm rounded-full bg-primary text-on-primary shadow-[0_4px_0_#004a75] hover:bg-[#005380] active:translate-y-0.5 cursor-pointer"
+      >
+        Registro
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Main Section -->
+  <main class="flex-grow relative overflow-hidden flex items-center justify-center min-h-[calc(100vh-5.5rem)] px-4 sm:px-6 lg:px-margin-desktop py-8 sm:py-12">
+    <!-- Ambient Chromatic Glows matching Brand Palette -->
+    <div class="absolute inset-0 z-0 pointer-events-none overflow-hidden">
+      <div class="absolute -top-12 -left-12 w-96 h-96 bg-primary-fixed/40 rounded-full blur-3xl"></div>
+      <div class="absolute bottom-10 right-10 w-[480px] h-[480px] bg-tertiary-fixed/35 rounded-full blur-3xl"></div>
+      <div class="absolute top-1/2 left-1/3 w-80 h-80 bg-secondary-fixed/30 rounded-full blur-3xl"></div>
+    </div>
+
+    <div class="container mx-auto relative z-10 grid grid-cols-12 gap-gutter items-center">
+      
+      <!-- Left Column: Typographic Hierarchy & CTA -->
+      <div class="col-span-12 lg:col-span-6 flex flex-col gap-6 sm:gap-xl text-left">
+        
+        <!-- Platform Badge Tag -->
+        <div class="inline-flex items-center gap-2 self-start px-4 py-1.5 rounded-full bg-white/90 border border-primary-fixed-dim/70 shadow-xs text-xs font-bold text-primary tracking-wide">
+          <span class="text-secondary-container">⭐</span>
+          <span>Plataforma Educativa para 3 a 5 años</span>
+        </div>
+
+        <div class="flex flex-col gap-3 sm:gap-md">
+          <h1 class="font-display-lg text-3xl sm:text-4xl lg:text-[52px] text-on-background leading-[1.12] tracking-tight">
+            Donde la <span class="text-primary">imaginación</span> vuela
+          </h1>
+          <p class="font-body-lg text-base sm:text-body-lg text-on-surface-variant max-w-xl leading-relaxed">
+            Aprender y jugar se unen en Kindora. Únete a nuestra mascota exploradora en aventuras diseñadas para despertar la curiosidad y la creatividad de los más pequeños.
+          </p>
+        </div>
+
+        <!-- Primary Action Cluster -->
+        <div class="flex gap-md items-center flex-wrap pt-1">
+          <button 
+            id="hero-play-cta"
+            onclick="window.location.href='/'" 
+            class="pulse-button bubbly-button font-headline-md text-base sm:text-headline-md px-8 sm:px-xl py-3.5 sm:py-md rounded-full bg-primary text-on-primary shadow-[0_4px_0_#004a75] hover:bg-[#005380] flex items-center justify-center gap-3 cursor-pointer"
+          >
+            <span class="material-symbols-outlined text-2xl">play_arrow</span>
+            <span>¡Empezar a jugar!</span>
+          </button>
+
+          <button 
+            id="hero-profile-cta"
+            onclick="document.getElementById('login-modal').classList.remove('hidden')" 
+            class="bubbly-button font-label-bold text-sm sm:text-base px-6 sm:px-lg py-3.5 rounded-full bg-white border-2 border-surface-container-highest hover:border-primary/40 text-on-surface-variant hover:bg-surface-container-low shadow-[0_3px_0_#bec7d3] flex items-center gap-2 cursor-pointer"
+          >
+            <span class="text-secondary-container">✨</span>
+            <span>Personalizar perfil</span>
+          </button>
+        </div>
+
+      </div>
+
+      <!-- Right Column: Kids Exploring Imagery with Ambient Floating Badges -->
+      <div class="col-span-12 lg:col-span-6 relative flex justify-center items-center h-full min-h-[360px] sm:min-h-[500px]">
+        
+        <!-- Ambient Backdrop Circle -->
+        <div class="absolute inset-0 bg-primary-fixed-dim/25 rounded-full blur-3xl -z-10 transform scale-125"></div>
+
+        <!-- Image Container Frame -->
+        <div class="relative w-full max-w-[560px] rounded-2xl sm:rounded-3xl p-2.5 bg-white/80 backdrop-blur-xs border-2 border-white shadow-2xl ambient-shadow">
+          <img 
+            alt="Niños estudiando con libros y un globo terráqueo en Kindora" 
+            class="object-cover w-full h-auto rounded-xl sm:rounded-2xl shadow-sm" 
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcR3QWkqAc9hQFthHadrY52QzBKU1B2VCVhM1QRY8qT0jrBZZ9Gc0ZyvPnaMednlrmR0K6sKlsd1jQ-AX2qc-dKtGSNfnzv5ml35Y1c69kdaa8JkF3OxNcu42J0U5XkhBpnaYWBJA9bgJXFhaPk2fSFqpaVUGMBzA6NGslCEwD3mllY3xKfovu-k7R84GIgD4sBVgEYL31VKwamXcWSyOtzKzMaTSuRI38aVMNzI2EhnZVlNZ2-ia-u7B5ErysoofA"
+          >
+          
+          <!-- Floating Badge 1: Top-Left "¡Divertido!" -->
+          <div class="floating-badge absolute -top-3 sm:top-6 -left-2 sm:-left-4 bg-surface-container-lowest rounded-full py-2 px-4 shadow-lg border border-pink-100 flex items-center gap-2">
+            <span class="w-6 h-6 rounded-full bg-tertiary-fixed flex items-center justify-center text-tertiary">
+              <span class="material-symbols-outlined text-sm text-tertiary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+            </span>
+            <span class="font-label-bold text-xs sm:text-label-bold text-on-surface">¡Divertido!</span>
+          </div>
+
+          <!-- Floating Badge 2: Bottom-Right "Educativo" -->
+          <div class="floating-badge-delayed absolute -bottom-3 sm:bottom-6 -right-2 sm:-right-4 bg-surface-container-lowest rounded-full py-2 px-4 shadow-lg border border-amber-100 flex items-center gap-2">
+            <span class="w-6 h-6 rounded-full bg-secondary-fixed flex items-center justify-center text-secondary">
+              <span class="material-symbols-outlined text-sm text-secondary-container" style="font-variation-settings: 'FILL' 1;">school</span>
+            </span>
+            <span class="font-label-bold text-xs sm:text-label-bold text-on-surface">Educativo</span>
+          </div>
+
+          <!-- Floating Badge 3: Bottom-Left Safe Tag -->
+          <div class="hidden sm:flex absolute bottom-3 left-6 bg-white/90 backdrop-blur-md rounded-full px-3.5 py-1.5 shadow-md border border-emerald-100 items-center gap-1.5">
+            <span class="text-emerald-600 text-xs">🛡️</span>
+            <span class="text-xs font-bold text-emerald-950">100% Seguro y sin anuncios</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Login & Welcome Modal (Aligning with Screen 1 Specification) -->
+  <div id="login-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-xs animate-in fade-in duration-200">
+    <div class="bg-surface-container-lowest rounded-3xl p-6 sm:p-lg w-full max-w-md shadow-2xl flex flex-col items-center text-center relative overflow-hidden border-2 border-surface-container my-auto">
+      
+      <!-- Ambient Decorative Circles -->
+      <div class="absolute -top-10 -right-10 w-32 h-32 bg-tertiary-fixed rounded-full opacity-50 blur-2xl pointer-events-none"></div>
+      <div class="absolute -bottom-10 -left-10 w-32 h-32 bg-primary-fixed rounded-full opacity-50 blur-2xl pointer-events-none"></div>
+
+      <!-- Close Button -->
+      <button 
+        id="modal-close-btn"
+        onclick="document.getElementById('login-modal').classList.add('hidden')" 
+        class="absolute top-4 right-4 text-slate-400 hover:text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold transition-colors cursor-pointer z-20"
+        title="Cerrar"
+      >
+        ✕
+      </button>
+
+      <div class="w-full space-y-4 relative z-10">
+        
+        <!-- Top Logo Icon in Modal -->
+        <div class="flex justify-center mb-1">
+          <img 
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHlAiaOvOpctdxfR_wpxk9LFhRgwymhVZUV2NvO36JGVAmiku-fIV3Av6ZXre2AIykMRjyctqiZlqGjLhanX5LDXavKeIMaC1umGnZZfD6opPSzxSgCnQ-31EXbVP7priIKt1OIVqyA3tTO0b-n1faCfsw1pNg6Z7xXnQfzianwrXWwSML4sIVMMhDWC3_f0UX--vxx59dDZTaHVatp8osUmgfmKf83ErpzyS9GzH8dSgcQF7khxWrdEkm5N4b9c8V" 
+            alt="Kindora Logo" 
+            class="h-16 w-auto object-contain"
+          />
+        </div>
+
+        <!-- Waving Hand Greeting Bubble (Ensuring icon and emoji render without fallback issues) -->
+        <div class="w-20 h-20 sm:w-24 sm:h-24 bg-primary-container rounded-full flex items-center justify-center mx-auto shadow-inner border-4 border-surface-container-lowest text-white">
+          <span class="text-4xl select-none" role="img" aria-label="waving hand">👋</span>
+        </div>
+
+        <div>
+          <h2 class="font-headline-lg text-2xl sm:text-headline-lg text-on-surface mb-1">¡Hola!</h2>
+          <p class="font-body-md text-sm sm:text-body-md text-on-surface-variant">Bienvenido al mundo mágico de Kindora.</p>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="flex flex-col gap-3 w-full pt-2">
+          <!-- Google Continue Button -->
+          <button 
+            id="modal-google-login"
+            onclick="window.location.href='/'" 
+            class="bubbly-button bg-primary hover:bg-[#005380] w-full rounded-full py-3.5 sm:py-sm px-gutter flex items-center justify-center gap-sm shadow-[0_4px_0_#004a75] text-on-primary font-label-bold text-sm sm:text-base cursor-pointer"
+          >
+            <div class="bg-surface-container-lowest rounded-full p-1 flex items-center justify-center shadow-2xs">
+              <svg class="w-5 h-5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"></path>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"></path>
+              </svg>
+            </div>
+            <span>Continuar con Google</span>
+          </button>
+
+          <!-- Guest Continue Button -->
+          <button 
+            id="modal-guest-login"
+            onclick="window.location.href='/'" 
+            class="bubbly-button-secondary bg-surface-container-highest hover:bg-surface-container-high w-full rounded-full py-3.5 sm:py-sm px-gutter flex items-center justify-center gap-sm text-on-surface font-label-bold text-sm sm:text-base shadow-[0_3px_0_#bec7d3] cursor-pointer"
+          >
+            <span class="material-symbols-outlined text-lg">face</span>
+            <span>Ingresar como invitado</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

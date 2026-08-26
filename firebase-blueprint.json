@@ -1,0 +1,95 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "Tutor user profile",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "description": "Firebase Auth UID of the tutor" },
+        "email": { "type": "string", "description": "Tutor email address" },
+        "authProvider": { "type": "string", "description": "Social provider used" },
+        "isOtpVerified": { "type": "boolean", "description": "Whether OTP is verified" },
+        "isProfileComplete": { "type": "boolean", "description": "Whether onboarding is complete" },
+        "createdAt": { "type": "string", "description": "Creation timestamp" },
+        "updatedAt": { "type": "string", "description": "Last update timestamp" }
+      }
+    },
+    "Child": {
+      "title": "Child",
+      "description": "Child profile in Kindora",
+      "type": "object",
+      "properties": {
+        "childId": { "type": "string", "description": "Unique child identifier" },
+        "name": { "type": "string", "description": "Child name" },
+        "ageGroup": { "type": "string", "description": "Age group" },
+        "avatarId": { "type": "string", "description": "Avatar identifier" },
+        "pet": { "type": "object", "description": "Virtual pet info" },
+        "createdAt": { "type": "string", "description": "Creation timestamp" }
+      }
+    },
+    "EducationalItem": {
+      "title": "EducationalItem",
+      "description": "Generic educational item for vowels, alphabet and future domains",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Unique item ID" },
+        "domain": { "type": "string", "enum": ["vowels", "alphabet", "numbers", "colors", "figures", "animals"], "description": "Educational domain" },
+        "language": { "type": "string", "description": "ISO language code, default es" },
+        "word": { "type": "string", "description": "Target word" },
+        "normalizedWord": { "type": "string", "description": "Normalized lowercase word without accents" },
+        "initialLetter": { "type": "string", "description": "Initial letter (A-Z, Ñ)" },
+        "initialVowel": { "type": "string", "description": "Initial vowel for vowel domain" },
+        "letters": { "type": "array", "description": "Array of uppercase letters in the word" },
+        "vowels": { "type": "array", "description": "Ordered vowels array in the word" },
+        "category": { "type": "string", "description": "Word category" },
+        "difficulty": { "type": "number", "description": "Difficulty rating from 1 to 3" },
+        "imageUrl": { "type": "string", "description": "Icon or asset visual" },
+        "audioWordUrl": { "type": "string", "description": "Speech audio text or URL for word" },
+        "audioLetterUrl": { "type": "string", "description": "Speech audio text or URL for letter" },
+        "audioVowelUrl": { "type": "string", "description": "Speech audio text or URL for vowel" },
+        "pronunciation": { "type": "string", "description": "Phonetic syllable breakdown" },
+        "enabled": { "type": "boolean", "description": "Whether item is active" },
+        "allowedGames": { "type": "array", "description": "Compatible game types" }
+      },
+      "required": ["id", "domain", "word", "normalizedWord", "difficulty", "enabled", "allowedGames"]
+    },
+    "WordUsage": {
+      "title": "WordUsage",
+      "description": "User word exposure history for LRU and spacing",
+      "type": "object",
+      "properties": {
+        "wordId": { "type": "string", "description": "ID of educational item" },
+        "lastUsedAt": { "type": "number", "description": "Timestamp ms of last exposure" },
+        "usageCount": { "type": "number", "description": "Total times presented" },
+        "gameType": { "type": "string", "description": "Game type where used" }
+      },
+      "required": ["wordId", "lastUsedAt", "usageCount"]
+    },
+    "DomainProgress": {
+      "title": "DomainProgress",
+      "description": "Assimilation and accuracy metrics per domain",
+      "type": "object",
+      "properties": {
+        "domain": { "type": "string", "description": "Educational domain" },
+        "accuracyMap": { "type": "object", "description": "Accuracy percentages per key" },
+        "totalPlayed": { "type": "number", "description": "Total exercises completed" },
+        "updatedAt": { "type": "number", "description": "Last updated timestamp" }
+      },
+      "required": ["domain", "accuracyMap", "totalPlayed"]
+    }
+  },
+  "firestore": {
+    "/educationalItems/{itemId}": {
+      "schema": "EducationalItem",
+      "description": "Bank of verified educational content"
+    },
+    "/users/{userId}/wordUsage/{wordId}": {
+      "schema": "WordUsage",
+      "description": "Exposure history per word for spacing algorithm"
+    },
+    "/users/{userId}/progress/{domain}": {
+      "schema": "DomainProgress",
+      "description": "Learner progress and accuracy metrics"
+    }
+  }
+}
