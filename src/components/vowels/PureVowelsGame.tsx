@@ -10,6 +10,7 @@ import { getNextVowelContentSync, preloadMediaForItems } from '../../services/co
 import { playDecoupledVowelSequence, playAudioPromise, cancelActiveAudio } from '../../utils/audioPromises';
 import { useApp } from '../../context/AppContext';
 import { Volume2, ChevronLeft, ChevronRight, Sparkles } from 'lucide-react';
+import { GameCard, ProgressDots, VowelSelector } from '../../design-system';
 
 interface PureVowelsGameProps {
   onWinExercise?: (xp: number, coins: number, vowel: VowelLetter) => void;
@@ -130,7 +131,7 @@ export const PureVowelsGame: React.FC<PureVowelsGameProps> = ({ onWinExercise, o
       <div className="flex items-center justify-between">
         <button
           onClick={onBackToHub}
-          className="flex items-center gap-2 px-4 py-2 bg-white text-slate-700 font-bold rounded-2xl border-2 border-slate-200 shadow-sm hover:bg-slate-50 active:scale-95 transition-all text-sm cursor-pointer"
+          className="flex items-center gap-2 px-4 py-2 bg-white text-slate-700 font-bold rounded-2xl border-2 border-slate-200 shadow-sm hover:bg-slate-50 active:scale-95 transition-all text-sm"
         >
           <ChevronLeft className="w-4 h-4 text-slate-500" />
           Volver a Minijuegos
@@ -144,35 +145,16 @@ export const PureVowelsGame: React.FC<PureVowelsGameProps> = ({ onWinExercise, o
         </div>
       </div>
 
-      {/* 5 Vowels Selector Bar (Instant Zero-Latency Filter) */}
-      <div className="bg-white rounded-3xl p-3 sm:p-4 border-2 border-slate-200 shadow-md">
-        <div className="grid grid-cols-5 gap-2 sm:gap-4">
-          {VOWEL_LETTERS.map((letter) => {
-            const isSelected = selectedVowel === letter;
-            const c = VOWEL_COLORS[letter];
-            return (
-              <button
-                key={letter}
-                onClick={() => handleSelectVowel(letter)}
-                className={`py-3 sm:py-4 rounded-2xl flex flex-col items-center justify-center transition-all cursor-pointer select-none ${
-                  isSelected
-                    ? `${c.bg} text-white shadow-lg scale-105 ring-4 ring-offset-2 ring-sky-200`
-                    : 'bg-slate-100 hover:bg-slate-200 text-slate-700'
-                }`}
-              >
-                <span className="text-2xl sm:text-4xl font-black">{letter}</span>
-                <span className="text-[10px] sm:text-xs font-bold opacity-90 mt-0.5">
-                  vocal {letter.toLowerCase()}
-                </span>
-              </button>
-            );
-          })}
-        </div>
+      {/* 5 Vowels Selector Bar (Instant Zero-Latency Filter) - using design-system VowelSelector */}
+      <div>
+        <GameCard className="p-3">
+          <VowelSelector value={selectedVowel} onChange={handleSelectVowel} size="md" className="w-full justify-center" />
+        </GameCard>
       </div>
 
-      {/* Interactive Word Showcase Card */}
+      {/* Interactive Word Showcase Card - using GameCard and ProgressDots */}
       {currentItem && (
-        <div className="bg-white rounded-3xl p-6 sm:p-8 border-2 border-slate-200 shadow-lg text-center relative overflow-hidden">
+        <GameCard className="text-center relative overflow-hidden">
           {/* Subtle Background Glow */}
           <div
             className={`absolute -top-24 -right-24 w-60 h-60 rounded-full blur-3xl opacity-20 pointer-events-none ${colorConfig.bg}`}
@@ -184,16 +166,17 @@ export const PureVowelsGame: React.FC<PureVowelsGameProps> = ({ onWinExercise, o
               <span className={`px-3.5 py-1.5 rounded-full text-xs font-extrabold capitalize ${colorConfig.badgeBg}`}>
                 {currentItem.category} • Nivel {currentItem.difficulty}
               </span>
-              <span className="text-xs font-bold text-slate-400">
-                Palabra {currentIndex + 1} de {Math.max(1, items.length)}
-              </span>
+              <div className="flex items-center gap-2">
+                <span className="text-xs font-bold text-slate-400">Palabra {currentIndex + 1} de {Math.max(1, items.length)}</span>
+                <ProgressDots total={items.length || 1} activeIndex={currentIndex} size={8} gap={6} className="ml-3" />
+              </div>
             </div>
 
-            {/* Visual Icon Illustration */}
+            {/* Visual Icon Illustration (kept markup but clickable) */}
             <div className="flex justify-center my-2">
               <div
                 onClick={() => handlePlaySequence()}
-                className={`w-36 h-36 sm:w-44 sm:h-44 rounded-3xl ${colorConfig.bgLight} border-3 ${colorConfig.border} flex items-center justify-center text-7xl sm:text-8xl shadow-inner cursor-pointer hover:scale-105 active:scale-95 transition-transform select-none ${
+                className={`w-36 h-36 sm:w-44 sm:h-44 rounded-3xl ${colorConfig.bgLight} border-3 ${colorConfig.border} flex items-center justify-center text-7xl sm:text-8xl shadow-inner cursor-pointer ${
                   isPlayingAudio ? 'animate-bounce' : ''
                 }`}
                 title="Toca para escuchar"
@@ -263,14 +246,7 @@ export const PureVowelsGame: React.FC<PureVowelsGameProps> = ({ onWinExercise, o
               </button>
 
               <div className="flex items-center gap-1.5">
-                {items.map((_, idx) => (
-                  <div
-                    key={idx}
-                    className={`h-2 rounded-full transition-all ${
-                      idx === currentIndex ? `w-6 ${colorConfig.bg}` : 'w-2 bg-slate-200'
-                    }`}
-                  />
-                ))}
+                { /* keep the visual thin progress dots already provided above */ }
               </div>
 
               <button
@@ -283,9 +259,8 @@ export const PureVowelsGame: React.FC<PureVowelsGameProps> = ({ onWinExercise, o
               </button>
             </div>
           </div>
-        </div>
+        </GameCard>
       )}
     </div>
   );
 };
-
