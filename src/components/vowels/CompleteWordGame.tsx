@@ -10,7 +10,8 @@ import { educationalFirestoreService } from '../../services/educationalFirestore
 import { playAudioPromise, playEducationalRetry, cancelActiveAudio } from '../../utils/audioPromises';
 import { useApp } from '../../context/AppContext';
 import { VOWEL_COLORS } from '../../data/educationalItemsData';
-import { Volume2, Sparkles, ChevronLeft, CheckCircle2, RotateCcw, Award } from 'lucide-react';
+import { Volume2, Sparkles, ChevronLeft, CheckCircle2, RotateCcw } from 'lucide-react';
+import { GameCard, ProgressDots, VowelSelector, AnimatedIllustration } from '../../design-system';
 
 interface CompleteWordGameProps {
   difficultyLevel?: number;
@@ -185,7 +186,7 @@ export const CompleteWordGame: React.FC<CompleteWordGameProps> = ({
       <div className="flex items-center justify-between flex-wrap gap-3">
         <button
           onClick={onBackToHub}
-          className="flex items-center gap-2 px-4 py-2 bg-white text-slate-700 font-bold rounded-2xl border-2 border-slate-200 shadow-sm hover:bg-slate-50 active:scale-95 transition-all text-sm cursor-pointer"
+          className="flex items-center gap-2 px-4 py-2 bg-white text-slate-700 font-bold rounded-2xl border-2 border-slate-200 shadow-sm hover:bg-slate-50 active:scale-95 transition-all text-sm"
         >
           <ChevronLeft className="w-4 h-4 text-slate-500" />
           Volver a Minijuegos
@@ -210,29 +211,37 @@ export const CompleteWordGame: React.FC<CompleteWordGameProps> = ({
         </div>
       </div>
 
-      {/* Main Game Arena */}
+      {/* Main Game Arena - wrapped in GameCard */}
       {challenge && (
-        <div className="bg-white rounded-3xl p-6 sm:p-8 border-2 border-slate-200 shadow-lg text-center space-y-6">
+        <GameCard className="text-center space-y-6">
           {/* Top Instruction Banner */}
           <div className="flex items-center justify-between">
             <span className="px-3 py-1 bg-amber-100 text-amber-800 font-extrabold text-xs rounded-full flex items-center gap-1">
               <Sparkles className="w-3.5 h-3.5 text-amber-600" />
               Nivel {level}: {level === 1 ? 'Vocal Inicial' : level === 2 ? 'Vocal Intermedia' : level === 3 ? 'Vocal Final' : 'Desafío Fonético'}
             </span>
-            <span className="text-xs font-bold text-slate-400">
-              Racha actual: <strong className="text-amber-600">{scoreStreak} ⭐</strong>
-            </span>
+
+            <div className="flex items-center gap-3">
+              <span className="text-xs font-bold text-slate-400">
+                Racha actual: <strong className="text-amber-600">{scoreStreak} ⭐</strong>
+              </span>
+              {/* Visual streak as small progress dots (purely visual) */}
+              <ProgressDots total={5} activeIndex={Math.min(scoreStreak, 4)} size={8} gap={6} />
+            </div>
           </div>
 
-          {/* Visual Clue Card */}
+          {/* Visual Clue Card - use AnimatedIllustration if available, otherwise keep markup */}
           <div className="flex justify-center">
-            <div
-              onClick={handlePlayWordAudio}
-              className="w-32 h-32 sm:w-40 sm:h-40 rounded-3xl bg-amber-50 border-3 border-amber-200 flex items-center justify-center text-7xl sm:text-8xl shadow-inner cursor-pointer hover:scale-105 active:scale-95 transition-transform"
-              title="Toca para escuchar"
-            >
-              {challenge.item.imageUrl}
-            </div>
+            {/* AnimatedIllustration is used for presentation; it receives children as illustration content */}
+            <AnimatedIllustration onClick={handlePlayWordAudio} className="w-32 h-32 sm:w-40 sm:h-40">
+              {/* fallback content is the image URL or text provided by the item */}
+              <div
+                title="Toca para escuchar"
+                className="w-full h-full rounded-3xl bg-amber-50 border-3 border-amber-200 flex items-center justify-center text-7xl sm:text-8xl shadow-inner cursor-pointer"
+              >
+                {challenge.item.imageUrl}
+              </div>
+            </AnimatedIllustration>
           </div>
 
           {/* Audio Prompt Button */}
@@ -292,7 +301,7 @@ export const CompleteWordGame: React.FC<CompleteWordGameProps> = ({
             </div>
           )}
 
-          {/* Vowel Options Selector Grid */}
+          {/* Vowel Options Selector Grid (keeps original behavior) */}
           <div className="pt-2">
             <p className="text-xs font-extrabold text-slate-500 uppercase tracking-wider mb-3">
               ¿Qué vocal falta para completar la palabra?
@@ -318,7 +327,7 @@ export const CompleteWordGame: React.FC<CompleteWordGameProps> = ({
               })}
             </div>
           </div>
-        </div>
+        </GameCard>
       )}
     </div>
   );
