@@ -154,7 +154,7 @@ export const PetView: React.FC = () => {
         {/* Status Bars Grid matching exact Canva IDs */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-2xl mx-auto bg-white/80 backdrop-blur-md p-6 rounded-3xl border-2 border-amber-100 shadow-md">
           {/* Hunger Bar */}
-          <div className="space-y-2 text-left">
+          <div className="space-y-2 text-left min-w-0">
             <div className="flex items-center justify-between text-sm font-bold text-[#344054]">
               <span id="bar-hunger-label" className="flex items-center gap-1">
                 🍎 Hambre
@@ -170,7 +170,7 @@ export const PetView: React.FC = () => {
           </div>
 
           {/* Happiness Bar */}
-          <div className="space-y-2 text-left">
+          <div className="space-y-2 text-left min-w-0">
             <div className="flex items-center justify-between text-sm font-bold text-[#344054]">
               <span id="bar-happy-label" className="flex items-center gap-1">
                 😊 Felicidad
@@ -186,7 +186,7 @@ export const PetView: React.FC = () => {
           </div>
 
           {/* Energy Bar */}
-          <div className="space-y-2 text-left">
+          <div className="space-y-2 text-left min-w-0">
             <div className="flex items-center justify-between text-sm font-bold text-[#344054]">
               <span id="bar-energy-label" className="flex items-center gap-1">
                 ⚡ Energía
@@ -208,15 +208,15 @@ export const PetView: React.FC = () => {
           <div className="relative">
             <button
               onClick={() => setShowFoodMenu(!showFoodMenu)}
-              className="px-6 py-3.5 bg-emerald-500 hover:bg-emerald-600 text-white font-extrabold text-base rounded-2xl shadow-md shadow-emerald-200 transition-transform active:scale-95 flex items-center gap-2 cursor-pointer"
+              className="px-4 md:px-6 py-3.5 bg-emerald-500 hover:bg-emerald-600 text-white font-extrabold text-base rounded-2xl shadow-md shadow-emerald-200 transition-transform active:scale-95 flex items-center gap-2 min-w-0"
             >
               <Apple className="w-5 h-5" />
               <span>🍎 Alimentar</span>
             </button>
 
-            {/* Food Menu Dropdown */}
+            {/* Food Menu Dropdown (responsive width) */}
             {showFoodMenu && (
-              <div className="absolute bottom-full mb-3 left-1/2 -translate-x-1/2 bg-white rounded-3xl p-4 shadow-2xl border-2 border-emerald-200 w-72 text-left z-30 space-y-2 animate-in zoom-in-95 duration-150">
+              <div className="absolute bottom-full mb-3 left-1/2 -translate-x-1/2 bg-white rounded-3xl p-4 shadow-2xl border-2 border-emerald-200 w-[90vw] max-w-xs text-left z-30 space-y-2 animate-in zoom-in-75">
                 <p className="text-xs font-bold text-slate-600 uppercase tracking-wider">
                   Elige comida del inventario:
                 </p>
@@ -226,7 +226,7 @@ export const PetView: React.FC = () => {
                       <button
                         key={`${f.id}-${i}`}
                         onClick={() => handleFeed(f.id)}
-                        className="flex items-center gap-2 p-2 rounded-xl bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 text-xs font-bold text-slate-800 transition-all text-left"
+                        className="flex items-center gap-2 p-2 rounded-xl bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 text-xs font-bold text-slate-800 transition-all text-left min-w-0"
                       >
                         <span className="text-2xl">{f.icon}</span>
                         <span className="truncate">{f.name}</span>
@@ -235,13 +235,8 @@ export const PetView: React.FC = () => {
                   </div>
                 ) : (
                   <div className="text-center py-2 space-y-2">
-                    <p className="text-xs text-slate-500 font-medium">
-                      No tienes comida en tu mochila.
-                    </p>
-                    <button
-                      onClick={() => handleFeed()}
-                      className="w-full py-2 bg-emerald-100 text-emerald-800 font-bold text-xs rounded-xl hover:bg-emerald-200"
-                    >
+                    <p className="text-xs text-slate-500 font-medium">No tienes comida en tu mochila.</p>
+                    <button onClick={() => handleFeed()} className="w-full py-2 bg-emerald-100 text-emerald-800 font-bold text-xs rounded-xl hover:bg-emerald-200">
                       🍎 Dar manzana gratis
                     </button>
                   </div>
@@ -253,7 +248,7 @@ export const PetView: React.FC = () => {
           {/* Play */}
           <button
             onClick={handlePlay}
-            className="px-6 py-3.5 bg-amber-500 hover:bg-amber-600 text-white font-extrabold text-base rounded-2xl shadow-md shadow-amber-200 transition-transform active:scale-95 flex items-center gap-2 cursor-pointer"
+            className="px-4 md:px-6 py-3.5 bg-amber-500 hover:bg-amber-600 text-white font-extrabold text-base rounded-2xl shadow-md shadow-amber-200 transition-transform active:scale-95 flex items-center gap-2 min-w-0"
           >
             <Smile className="w-5 h-5" />
             <span>🎾 Jugar</span>
@@ -262,7 +257,7 @@ export const PetView: React.FC = () => {
           {/* Rest */}
           <button
             onClick={handleRest}
-            className="px-6 py-3.5 bg-sky-500 hover:bg-sky-600 text-white font-extrabold text-base rounded-2xl shadow-md shadow-sky-200 transition-transform active:scale-95 flex items-center gap-2 cursor-pointer"
+            className="px-4 md:px-6 py-3.5 bg-sky-500 hover:bg-sky-600 text-white font-extrabold text-base rounded-2xl shadow-md shadow-sky-200 transition-transform active:scale-95 flex items-center gap-2 min-w-0"
           >
             <Bed className="w-5 h-5" />
             <span>💤 Descansar</span>
@@ -271,7 +266,7 @@ export const PetView: React.FC = () => {
           {/* Pet Directly */}
           <button
             onClick={interactPetDirectly}
-            className="px-6 py-3.5 bg-pink-500 hover:bg-pink-600 text-white font-extrabold text-base rounded-2xl shadow-md shadow-pink-200 transition-transform active:scale-95 flex items-center gap-2 cursor-pointer"
+            className="px-4 md:px-6 py-3.5 bg-pink-500 hover:bg-pink-600 text-white font-extrabold text-base rounded-2xl shadow-md shadow-pink-200 transition-transform active:scale-95 flex items-center gap-2 min-w-0"
           >
             <Heart className="w-5 h-5 fill-current" />
             <span>❤️ Acariciar</span>
