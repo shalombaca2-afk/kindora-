@@ -150,10 +150,10 @@ export const HomeView: React.FC = () => {
             <div className="space-y-1.5">
               <div
                 id="home-bubble"
-                className="bg-white text-[#334155] px-4 py-2.5 rounded-2xl shadow-md font-black text-base sm:text-xl inline-flex items-center gap-2 border border-sky-100"
+                className="bg-white text-[#334155] px-4 py-2.5 rounded-2xl shadow-md font-black text-base sm:text-xl inline-flex items-center gap-2 border border-sky-100 max-w-[min(70vw,600px)]"
               >
                 <span>{petEmoji}</span>
-                <span>¡Hola {user ? user.childName : ''}! ¿Listo para aprender en Kindora?</span>
+                <span className="truncate">¡Hola {user ? user.childName : ''}! ¿Listo para aprender en Kindora?</span>
               </div>
               <p className="text-sky-50 text-sm font-semibold pl-1">
                 Toca cualquier actividad para escuchar, jugar y ganar estrellas.
@@ -162,12 +162,12 @@ export const HomeView: React.FC = () => {
           </div>
 
           {/* Quick Pet Mini Status */}
-          <div className="w-full md:w-auto flex items-center gap-3 bg-white/20 backdrop-blur-xs px-4 py-3 rounded-2xl border border-white/30">
-            <div className="text-center px-2">
+          <div className="w-full md:w-auto flex flex-col md:flex-row items-center gap-3 bg-white/20 backdrop-blur-xs px-4 py-3 rounded-2xl border border-white/30">
+            <div className="flex flex-col items-center px-2 w-full md:w-auto min-w-0">
               <div className="text-xs text-white/90 font-bold flex items-center justify-center gap-1">
                 🍎 Hambre
               </div>
-              <div className="w-16 h-2.5 bg-black/20 rounded-full mt-1 overflow-hidden">
+              <div className="w-full md:w-16 h-2.5 bg-black/20 rounded-full mt-2 overflow-hidden">
                 <div
                   className="h-full bg-emerald-300 rounded-full transition-all"
                   style={{ width: `${petStats.hunger}%` }}
@@ -175,11 +175,11 @@ export const HomeView: React.FC = () => {
               </div>
             </div>
 
-            <div className="text-center px-2">
+            <div className="flex flex-col items-center px-2 w-full md:w-auto min-w-0">
               <div className="text-xs text-white/90 font-bold flex items-center justify-center gap-1">
                 😊 Felicidad
               </div>
-              <div className="w-16 h-2.5 bg-black/20 rounded-full mt-1 overflow-hidden">
+              <div className="w-full md:w-16 h-2.5 bg-black/20 rounded-full mt-2 overflow-hidden">
                 <div
                   className="h-full bg-amber-300 rounded-full transition-all"
                   style={{ width: `${petStats.happiness}%` }}
@@ -187,11 +187,11 @@ export const HomeView: React.FC = () => {
               </div>
             </div>
 
-            <div className="text-center px-2">
+            <div className="flex flex-col items-center px-2 w-full md:w-auto min-w-0">
               <div className="text-xs text-white/90 font-bold flex items-center justify-center gap-1">
                 ⚡ Energía
               </div>
-              <div className="w-16 h-2.5 bg-black/20 rounded-full mt-1 overflow-hidden">
+              <div className="w-full md:w-16 h-2.5 bg-black/20 rounded-full mt-2 overflow-hidden">
                 <div
                   className="h-full bg-sky-200 rounded-full transition-all"
                   style={{ width: `${petStats.energy}%` }}
@@ -201,7 +201,7 @@ export const HomeView: React.FC = () => {
 
             <button
               onClick={() => setActiveTab('pet')}
-              className="ml-2 px-3.5 py-2 bg-[#f97316] hover:bg-[#ea580c] text-white font-black text-xs rounded-xl shadow-xs transition-transform active:scale-95 cursor-pointer"
+              className="mt-2 md:mt-0 md:ml-2 w-full md:w-auto px-3.5 py-2 bg-[#f97316] hover:bg-[#ea580c] text-white font-black text-xs rounded-xl shadow-xs transition-transform active:scale-95 cursor-pointer"
             >
               Cuidar 🐾
             </button>
@@ -232,7 +232,7 @@ export const HomeView: React.FC = () => {
             id={block.blockId}
             onClick={() => handleSelectBlock(block.id, block.title)}
             style={{ backgroundColor: block.bgColor }}
-            className="group relative p-6 rounded-3xl border-2 border-slate-200/70 hover:border-sky-400 text-left transition-all duration-200 transform hover:-translate-y-1 hover:shadow-lg active:scale-98 flex flex-col justify-between min-h-[185px] cursor-pointer"
+            className="group relative p-6 rounded-3xl border-2 border-slate-200/70 hover:border-sky-400 text-left transition-all duration-200 transform hover:-translate-y-1 hover:shadow-lg active:scale-99"
           >
             <div className="flex items-start justify-between">
               <span className="text-4xl sm:text-5xl group-hover:scale-110 transition-transform">
